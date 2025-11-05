@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Recommendation System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎬 Movie Recommendation System</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search movies...">
+      <button id="searchBtn">Search</button>
+      <button id="clearBtn" class="clear-btn">Clear All Data</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="movie-list">
+      <h2>Search Results</h2>
+      <div id="movies" class="grid"></div>
+    </section>
+
+    <section id="liked-section">
+      <h2>💖 Liked Movies</h2>
+      <div id="likedMovies" class="grid"></div>
+    </section>
+
+    <section id="recommendations">
+      <h2>Recommended for You ❤️</h2>
+      <div id="recommended" class="grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with ❤️ using HTML, CSS, and JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
